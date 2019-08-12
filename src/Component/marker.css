@@ -1,0 +1,41 @@
+.marker {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: lightcyan;
+    width: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.dipilih {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: yellow;
+    width: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.penginapan {
+    flex-basis: calc(50px - 20px);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.penginapam:hover{
+    opacity: 0.0;
+}
+
+.penginapan-foto {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.penginapan-judul {
+    margin-top: 10px;
+    font-weight: bold;
+}
